@@ -30,7 +30,7 @@ setup_args = {
     ],
     "extras_require": {
         "dev": {"jupyter-packaging", "cookiecutter", "twine", "bumpversion", "black", "pylint", "pyYaml"},
-        "prod": {"cadquery==master"},
+        "prod": {"cadquery==2.2.0"},
     },
     "packages": find_packages(),
     "scripts": ["jcv", "jcv.cmd"],
